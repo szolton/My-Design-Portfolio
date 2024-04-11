@@ -1,0 +1,9 @@
+./images
+images
+.gitattributes
+fonts
+./fonts
+
+./assets/package.json
+./assets/tailwind.config.js
+.DS_Store

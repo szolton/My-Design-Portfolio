@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="./assets/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- navigation header info bar -->
+    <header class="nav-header bg-gray-800 text-white py-6"> <!-- Increased padding on the y-axis -->
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="./index.html"><h1 style="font-family: Bebas Neue; font-size: 90px;">Stephanie Zolton</h1></a>
+        </div>
+        <nav class="mt-8">
+            <ul class="flex">
+                <li><a href="./index-apparel.html" class="hover:text-gray-600">ILLUSTRATIONS</a></li>
+                <li><a href="./index-web.html" class="hover:text-gray-600">WEB DESIGN</a></li>
+                <li><a href="./index-about.html" class="hover:text-gray-600">ABOUT</a></li>
+                <li><a href="./images/Zolton_resume.pdf" class="hover:text-gray-600">RESUME</a></li>
+            </ul>
+        </nav>
+        
+        <style>
+            /* Adjust the font size and spacing */
+            nav ul li a {
+                padding: 0 10px; /* Adjust the padding as needed */
+                white-space: nowrap; /* Prevent line breaks */
+                font-size: 20px; /* Adjust the font size as needed */
+            }
+        </style>
+        
+    </header>
+    <h4 class="text-left p-5 pl-7" style="font-family: 'FranklinGothic URW', sans-serif; color: #6ac9cb; font-size: 18px;">Graphic Designer, Illustrator, and Web Designer based in Cleveland, OH.</h4>
+
+    <section>
+        <!-- main body -->
+        <div class="title-headers">
+            <h2 class="mt-2 pt-5 text-center" style="font-family: 'Bebas Neue', sans-serif; color: #6ac9cb; font-size: 48px;">Daily Interactive Planner</h2>
+            <p class="mb-3 text-center text-gray-600 mb-10 pl-10 pr-10">The purpose of this project was to work in a group setting, and take everything we've learned in class over the past six weeks to create a real-world front-end application for our portfolios. Our purpose of this project was to create a webpage that uses interactive daily tasks in conjunction with the weather and news updates accordingly.
+            </p>
+        </div>
+    </section>
+
+    <!-- the project -->
+    <main>
+        <div class="columns-1 md:p-20 md:m-20">
+            <!-- video screenrecordings -->
+            <div class="max-w-full mx-auto h-auto object-cover rounded shadow-md -mt-20">
+                <video width="1200" height="675" controls>
+                    <source src="./images/WEB DESIGN/daily-planner/daily-planner-video.mp4" type="video/mp4" alt="screen recorded video presenting the project">
+                    A video screen recording walkthrough of the project.
+                </video>
+            </div>
+            <p class="mb-3 text-center text-gray-600 mt-3 mb-10 pl-7 pr-7">A video walkthrough of our project. We used a Weather API and another API for the news section, and used JavaScript for the interactive to-do list. We wanted a cool-toned color palette, used bulma styling and set the date to update every day.</p>
+            <div class="max-w-full mx-auto h-auto object-cover rounded shadow-md mt-20">
+                <video width="1200" height="675" controls>
+                    <source src="./images/WEB DESIGN/daily-planner/daily-planner-mobile.mov" type="video/mp4" alt="screenrecording showing the mobile responsiveness">
+                    A video screen recording walkthrough of the project.
+                </video>
+            </div>
+            <p class="mb-3 text-center text-gray-600 mt-3 mb-10 pl-7 pr-7">A video walkthrough showcasing the responsive mobile design.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                <img src="./images/WEB DESIGN/daily-planner/wireframe.png" class="object-cover rounded shadow-md h-full mx-auto" alt="brochure design mockup">
+                <img src="./images/WEB DESIGN/daily-planner/color2.png" class="object-cover rounded shadow-md h-full" alt="brochure design mockup">
+            </div>
+        </div>
+    </main>
+</body>
+</html>

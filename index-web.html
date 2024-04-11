@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="./assets/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- navigation header info bar -->
+    <header class="nav-header bg-gray-800 text-white py-6"> <!-- Increased padding on the y-axis -->
+        <div class="container mx-auto flex justify-between items-center">
+          
+                <a href="./index.html"><h1 style="font-family: Bebas Neue; font-size: 90px;">Stephanie Zolton</h1>
+                </a>      
+        </div>
+    
+        <nav class="mt-8">
+            <ul class="flex">
+                <li><a href="./index-apparel.html" class="hover:text-gray-600">ILLUSTRATIONS</a></li>
+                <li><a href="./index-web.html" class="hover:text-gray-600">WEB DESIGN</a></li>
+                <li><a href="./index-about.html" class="hover:text-gray-600">ABOUT</a></li>
+                <li><a href="./images/Zolton_resume.pdf" class="hover:text-gray-600">RESUME</a></li>
+            </ul>
+        </nav>
+        
+        <style>
+            /* Adjust the font size and spacing */
+            nav ul li a {
+                padding: 0 10px; /* Adjust the padding as needed */
+                white-space: nowrap; /* Prevent line breaks */
+                font-size: 20px; /* Adjust the font size as needed */
+            }
+        </style>
+        
+    </header>
+    <h4 class="text-left p-5 pl-7" style="font-family: 'FranklinGothic URW', sans-serif; color: #6ac9cb; font-size: 18px;">Graphic Designer, Illustrator, and Web Designer based in Cleveland, OH.</h4>
+
+    <section>
+        <!-- main body -->
+        <div class="title-headers">
+         
+            <h2 class="mt-2 pt-5 text-center" style="font-family: 'Bebas Neue', sans-serif; color: #6ac9cb; font-size: 48px;">by the web</h2>
+               <p class="mb-3">Take a look around -- here are some of my favorite web design projects.</p>
+        </div>
+    </section>
+    
+    <!-- images for portfolio -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pt-4 p-4">
+        <!-- interactive daily planner -->
+        <div class="bg-transparent rounded overflow-hidden">
+            <a href="./index-web-planner.html" class="block group">
+                <div class="relative">
+                    <div class="w-full h-64 bg-white rounded overflow-hidden transition duration-300 ease-in-out transform group-hover:opacity-50">
+                        <img src="./images/WEB DESIGn/daily-planner/Screen Shot 2024-04-09 at 6.21.28 PM.png" class="w-full h-full object-cover rounded" alt="interactive daily planner">
+                    </div>
+                    <h2 class="mt-2 pt-1 text-center" style="font-family: 'Bebas Neue', sans-serif; color: #6ac9cb; font-size: 32px;">Interactive Daily Planner</h2>
+                </div>
+            </a>
+        </div>
+
+        <!-- weather 5 day forecast -->
+        <div class="bg-transparent rounded overflow-hidden">
+            <a href="./index-print-media.html" class="block group">
+                <div class="relative">
+                    <div class="w-full h-64 bg-white rounded overflow-hidden transition duration-300 ease-in-out transform group-hover:opacity-50">
+                        <img src="./images/WEB DESIGN/weather-thumbnail.png" class="w-full h-full object-cover rounded" alt="weather 5-day forecast thumbnail">
+                    </div>
+                    <h2 class="mt-2 pt-1 text-center" style="font-family: 'Bebas Neue', sans-serif; color: #6ac9cb; font-size: 32px;">Weather 5-Day Forecast</h2>
+                </div>
+            </a>
+        </div>
+        
+       <!-- coding quiz thumbnail -->
+       <div class="bg-transparent rounded overflow-hidden">
+        <a href="./index-rozis.html" class="block group">
+            <div class="relative">
+                <div class="w-full h-64 bg-white rounded overflow-hidden transition duration-300 ease-in-out transform group-hover:opacity-50">
+                    <img src="./images/WEB DESIGN/coding-quiz-thumbnail.png" class="w-full h-full object-cover rounded" alt="coding quiz">
+                </div>
+                <h2 class="mt-2 pt-1 text-center" style="font-family: 'Bebas Neue', sans-serif; color: #6ac9cb; font-size: 32px;">Coding JavaScript Quiz</h2>
+            </div>
+        </a>
+    </div>
+    
+    <!-- workday scheduler thumbnail -->
+    <div class="bg-transparent rounded overflow-hidden">
+        <a href="./index-magazines.html" class="block group">
+            <div class="relative">
+                <div class="w-full h-64 bg-white rounded overflow-hidden transition duration-300 ease-in-out transform group-hover:opacity-50">
+                    <img src="./images/WEB DESIGN/workday-scheduler-thumbnail.png" class="w-full h-full object-cover rounded" alt="workday scheduler">
+                </div>
+                <h2 class="mt-2 pt-1 text-center" style="font-family: 'Bebas Neue', sans-serif; color: #6ac9cb; font-size: 32px;">Workday Scheduler</h2>
+            </div>
+        </a>
+    </div>
+</div>
+</body>
+</html>
