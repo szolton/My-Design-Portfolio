@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Web Design</title>
+    <title>My Graphic Design Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="./assets/style.css" rel="stylesheet">
@@ -11,7 +11,9 @@
     <!-- navigation header info bar -->
     <header class="nav-header bg-gray-800 text-white py-6"> <!-- Increased padding on the y-axis -->
         <div class="container mx-auto flex justify-between items-center">
-            <a href="./index.html"><h1 style="font-family: Bebas Neue; font-size: 90px;">Stephanie Zolton</h1></a>
+          
+                <a href="./index.html"><h1 style="font-family: Bebas Neue; font-size: 90px;">Stephanie Zolton</h1>
+                </a>      
         </div>
         <nav class="mt-8">
             <ul class="flex">
@@ -44,28 +46,32 @@
     </section>
 
     <!-- the project -->
-    <main>
-        <div class="columns-1 md:p-20 md:m-20">
-            <!-- video screenrecordings -->
-            <div class="max-w-full mx-auto h-auto object-cover rounded shadow-md -mt-20">
-                <video width="1200" height="675" controls>
-                    <source src="./images/WEB DESIGN/daily-planner/daily-planner-video.mp4" type="video/mp4" alt="screen recorded video presenting the project">
-                    A video screen recording walkthrough of the project.
-                </video>
+    <main class="container mx-auto">
+        <div class="md:p-20 md:m-20 p-5">
+            <!-- video screen recordings -->
+            <div class="max-w-full mx-auto h-auto object-cover rounded shadow-md md:-mt-20 flex justify-center">
+                <div class="iframe-container aspect-w-16 aspect-h-9">
+                    <iframe title="vimeo-player" src="https://player.vimeo.com/video/933868374?h=373d68f675" width="1100" height="625" frameborder="0" allowfullscreen></iframe>
+                </div>
             </div>
-            <p class="mb-3 text-center text-gray-600 mt-3 mb-10 pl-7 pr-7">A video walkthrough of our project. We used a Weather API and another API for the news section, and used JavaScript for the interactive to-do list. We wanted a cool-toned color palette, used bulma styling and set the date to update every day.</p>
-            <div class="max-w-full mx-auto h-auto object-cover rounded shadow-md mt-20">
-                <video width="1200" height="675" controls>
-                    <source src="./images/WEB DESIGN/daily-planner/daily-planner-mobile.mov" type="video/mp4" alt="screenrecording showing the mobile responsiveness">
-                    A video screen recording walkthrough of the project.
-                </video>
+            <p class="text-center text-gray-600 mt-3 mb-10">A video walkthrough of our project. We used a Weather API and another API for the news section, and used JavaScript for the interactive to-do list. We wanted a cool-toned color palette, used Bulma styling, and set the date to update every day.</p>
+            <div class="max-w-full mx-auto h-auto object-cover rounded shadow-md md:-mt-20 flex justify-center">
+                <div class="iframe-container aspect-w-16 aspect-h-9">
+                    <iframe title="vimeo-player" src="https://player.vimeo.com/video/933873174?h=f7d18efc97" width="1100" height="625" frameborder="0" allowfullscreen></iframe>
+                </div>
             </div>
-            <p class="mb-3 text-center text-gray-600 mt-3 mb-10 pl-7 pr-7">A video walkthrough showcasing the responsive mobile design.</p>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
-                <img src="./images/WEB DESIGN/daily-planner/wireframe.png" class="object-cover rounded shadow-md h-full mx-auto" alt="brochure design mockup">
-                <img src="./images/WEB DESIGN/daily-planner/color2.png" class="object-cover rounded shadow-md h-full" alt="brochure design mockup">
+            <p class="text-center text-gray-600 mt-3 mb-10">A video walkthrough showcasing the responsive mobile design.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-10">
+                <img src="./images/WEB DESIGN/daily-planner/wireframe.png" class="object-contain rounded shadow-md h-full mx-auto" alt="wireframe">
+                <img src="./images/WEB DESIGN/daily-planner/color2.png" class="object-contain rounded shadow-md h-full mx-auto" alt="color palette">
             </div>
         </div>
     </main>
+    
+    
+        </div>
+    </main>
+    
 </body>
+
 </html>
