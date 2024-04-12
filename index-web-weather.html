@@ -40,6 +40,7 @@
     <section>
         <!-- main body -->
         <div class="title-headers">
+            <div class="columns-1 md:p-20 md:m-20 sm:p-5" style="margin-top: -30px;">
             <h2 class="mt-2 pt-5 text-center" style="font-family: 'Bebas Neue', sans-serif; color: #6ac9cb; font-size: 48px;">Weather 5-Day Forecast</h2>
             <p class="mb-3 text-center text-gray-600 mb-10 pl-10 pr-10">
                 The purpose of this project was to create a weather dashboard that shows a 5-Day forecast. Please see below for the fully deployed 5-Day Weather Forecast application.
@@ -48,11 +49,13 @@
                 This was to help us learn how to use a Server-Side API with a functioning weather dashboard.
             </p>
        
-                <div class="columns-1 md:p-20 md:m-20 sm:p-5" style="margin-top: -30px;">
-                    <iframe title="vimeo-player" src="https://player.vimeo.com/video/933899063?h=58a2fcc064" width="1100" height="625" frameborder="0" allowfullscreen></iframe>
-                    <img src="./images/WEB DESIGN/weather-planner/colors.png" class="max-w-full mx-auto h-auto object-cover rounded shadow-md -p-15 shadow-md" style="width: 100%;" alt="color-palette">
-                </div>
-                I began by doing research and finding sources -- these videos were equally helpful in various parts of the assignment.
+
+            <div class="flex justify-center">
+                <iframe title="vimeo-player" src="https://player.vimeo.com/video/933899063?h=58a2fcc064" width="1000" height="575" frameborder="0" allowfullscreen></iframe>
+            </div>
+            
+                    <h2 class="mt-2 pt-5 text-center" style="font-family: 'Bebas Neue', sans-serif; color: #6ac9cb; font-size: 48px;">the challenge</h2>  
+                    <p class="text-gray-600">I began by doing research and finding sources -- these videos were equally helpful in various parts of the assignment.</p>
             
                 <p class="text-gray-600 -mt-9" style="display: inline-block;">Sources:
                     <a href="https://www.youtube.com/watch?v=m9OSBJaQTlM&ab_channel=PortEXE" target="_blank" class="hover:text-gray-900 hover:underline" style="display: inline-block; margin-right: 10px;">Weather API Forecast Resource 1,</a>
@@ -60,16 +63,48 @@
                 
                     <a href="https://www.youtube.com/watch?v=MIYQR-Ybrn4" target="_blank" class="hover:text-gray-900 hover:underline" style="display: inline-block; margin-right: 10px;">Coding Source</a>
                 </p>
-                
-                
-                
+          
                 <br>
+                <p class="text-gray-600 pl-8 pr-8 ml-5 mr-5 mb-3 mt-3">I followed the resources to create the Javascript, HTML, and CSS. Here are some screenshots of how my process worked.
+                    First, I grabbed colors I liked more and messed around with them for the weather palette. These were adjusted slightly
+                    as I went along to make something functioning and cool, but still kept the colors in a teal-palette I liked.
+                </p> 
+                <img src="./images/WEB DESIGN/weather-planner/colors.png" class="max-w-full mx-auto h-auto object-cover rounded shadow-md mb-3 shadow-md" style="width: 100%;" alt="color-palette">
+                <p class="text-gray-600 ml-5 mr-5 mb-3">Then, I got to work making the HTML, CSS, JavaScript, and weather API files.
+                    Below, you can see some screenshots of the web application in process and how the weather API functions as a whole.
                 <br>
-                <p class="text-gray-600 pl-8 pr-8 ml-5 mr-5">I followed the resources to create the Javascript, HTML, and CSS. Here are some screenshots of how my process worked.
-                First, I grabbed colors I liked more and messed around with them for the weather palette. These were adjusted slightly
-                as I went along to make something snazzy, but still kept the colors in a teal-palette I liked.
-                <br>
-                </p>
+            </p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                        <img src="./images/WEB DESIGN/weather-planner/location.png" class="object-cover rounded shadow-md h-full" alt="mockup illustration">
+                        <img src="./images/WEB DESIGn/weather-planner/city, state.png" class="object-cover rounded shadow-md h-full" alt="pumpkin puppy illustration">
+                    </div>
+
+                    <p class="text-gray-600 mt-3">When the page first loads, the user's location automatically pops up as seen in the left screenshot. We were to use local storage to save the recent searches and make them linkable, as you can see with the selected button.</p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+                        <img src="./images/WEB DESIGN/weather-planner/mobile-1.png " class="object-contain rounded shadow-md h-full" alt="mockup illustration">
+                        <img src="./images/WEB DESIGn/weather-planner/mobile-2.png" class="object-contain rounded shadow-md h-full" alt="pumpkin puppy illustration">
+                        <img src="./images/WEB DESIGn/weather-planner/mobile-3.png" class="object-contain rounded shadow-md h-full" alt="pumpkin puppy illustration">
+                    </div>
+
+                    <p class="text-gray-600 mt-3">Here, you can see the page's responsiveness on a mobile device where the app functions on a smaller screen.
+                        It uses weather icons that update accordingly to the weather report, as well as the date, temperature, wind and humidity.
+                        For extra features, the search function searchable by city, state, just by city, or by zip code, and I used localStorage for saving the recent search history.</p>
+               
+                        <h2 class="mt-2 pt-5 text-center" style="font-family: 'Bebas Neue', sans-serif; color: #6ac9cb; font-size: 48px;">In conclusion</h2>  
+                        <p class="text-gray-600 mt-3">In conclusion, I set up the quiz to meet the challenge requirements and improved it. I:</p>
+                        <ul>
+                        <li><p class="text-gray-600 mt-3">- provided a weather dashboard with form inputs and the user has the ability to search for any given city that will show up in the results</li></p>
+                        <li><p class="text-gray-600">- you can find the current and future conditions for that city, and it's added to the search history off to the left side of the page, and also easily check your current location</li></p>
+                        </li><p class="text-gray-600">- the user can view future weather conditions for that city in a 5-day forecast that includes a weather icon, the temperature, wind, and humidity</li></p>
+                        </li><p class="text-gray-600">- you can click on a city in the search history and that city is pulled up, where the user is then shown the recent city</li></p>
+                    </ul>
+                    
+                    <p class="text-gray-600 mt-3">Please follow this link to the successful, full deployed site on GitHub:
+                        <a href="https://szolton.github.io/06-challenge-week6-Interactive-Weather-Page/" target="_blank" class="hover:text-gray-900 hover:underline inline-block" alt="link to the deployed weather page">here.</a>
+                    </p>
+                    
                 
 
         </div>
